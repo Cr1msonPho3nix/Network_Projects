@@ -58,11 +58,12 @@ The network protocol involved in the incident is HTTP, because the traffic on po
   - After checking the packet analyzer log, a senior analyst confirms that the website was compromised, possibly by a brute for attack directed to the owners account.
 - Date and time: Incident were first noticed this morning, tests on network connectivity were done at **14:18**.
 - Affected systems: We can't asses the systems affected by the malware downloaded by the clients, but we can assure the account of the owner and the website were compromised.
-- Summary of actions taken: Modified owner's account password, installed some new strong requirements for it and cleaned the website of any inyected code. Website no longer ask to download a file and works as intended.
+- Summary of actions taken: Sent the owner a link to modify the password after install some new strong requirements for it. Cleaned the website of any inyected code. Website no longer asks to download a file and works as intended.
 
 ### 3: Recommend a remediation for brute force attacks
 There are a few techniques that can be implemented to harden security and prevent a brute force attack, such as:
 - Implement Strong Password Policies: Minimum password length, policies that require users to regularly change their passwords or enforcing complexity on requirements (such as including a mix of uppercase, lowercase, numbers, and special characters) can strengthen the security.
 - Multi-Factor Authentication (MFA): Ask the user to verify itself with not only a password, but a phone message for example.
 - Limiting attempts: If the user gets the password wrong a "x" amount of times, access can be blocked temporarily to prevent threat actors to keep trying.
+
 Those are some of the most common techniques uses, but others like IP Blacklisting, configuring the Web Application Firewall or even set a Honeypot to distract attackers and give security teams more time to respond, are used by some security teams.
