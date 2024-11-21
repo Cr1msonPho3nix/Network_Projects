@@ -4,7 +4,7 @@ You’re a network analyst who needs to use tcpdump to capture and analyze live 
 Your Linux user's home directory contains a sample packet capture file that you will use at the end of the lab to answer a few questions about the network traffic that it contains.
 
 ## 1. Identify network interfaces
-- Identify the network interfaces that can be used to capture network packet data, then identify the interface options available for packet capture.
+- Identify the network interfaces that can be used to capture network packet data, then identify the interface options available for packet capture.<br>
 ![wireshark_1](https://github.com/Cr1msonPho3nix/Network_Projects/blob/main/img/TCPDUMP%20packet%20Analyzer%201/1.1.Network_interfaces.PNG)<br><br>
 
 ## 2. Inspect the network traffic of a network interface with tcpdump
