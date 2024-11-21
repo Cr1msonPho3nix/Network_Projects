@@ -8,7 +8,7 @@ Your Linux user's home directory contains a sample packet capture file that you 
 ![wireshark_1](https://github.com/Cr1msonPho3nix/Network_Projects/blob/main/img/TCPDUMP%20packet%20Analyzer%201/1.1.Network_interfaces.PNG)<br><br>
 
 ## 2. Inspect the network traffic of a network interface with tcpdump
-- Filter five live network packet data from the eth0 interface with tcpdump.<br>
+- Filter five live network packet data from the eth0 interface with tcpdump.<br><br>
 ![wireshark_1](https://github.com/Cr1msonPho3nix/Network_Projects/blob/main/img/TCPDUMP%20packet%20Analyzer%201/2.1.Filter_5_packets.PNG)<br><br>
 - This command will run tcpdump with the following options:
   - i eth0: Capture data specifically from the eth0 interface.
@@ -16,7 +16,7 @@ Your Linux user's home directory contains a sample packet capture file that you 
   - c5: Capture 5 packets of data.
 
 ## 3. Capture network traffic with tcpdump
-- Capture packet data into a file called capture.pcap. Generate some HTTP traffic and check if the packet has been captured.<br>
+- Capture packet data into a file called capture.pcap. Generate some HTTP traffic and check if the packet has been captured.<br><br>
 ![wireshark_1](https://github.com/Cr1msonPho3nix/Network_Projects/blob/main/img/TCPDUMP%20packet%20Analyzer%201/3.1.stored_packet_capture.PNG)<br><br>
 - This command will run tcpdump in the background with the following options:
   - i eth0: Capture data from the eth0 interface.
@@ -27,5 +27,5 @@ Your Linux user's home directory contains a sample packet capture file that you 
   - &: This is an instruction to the Bash shell to run the command in the background.
 
   ## 4. Filter the captured packet data
-  - Filter the packet header data from the capture.pcap capture file.<br>
+  - Filter the packet header data from the capture.pcap capture file.<br><br>
 ![wireshark_1](https://github.com/Cr1msonPho3nix/Network_Projects/blob/main/img/TCPDUMP%20packet%20Analyzer%201/4.1.Header_filter.PNG)<br><br>
