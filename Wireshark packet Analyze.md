@@ -10,14 +10,14 @@ You must filter the data in order to:
 
 ## 1. Apply a basic Wireshark filter and inspect a packet
 - Search for the specific IP address: 142.250.1.139
-![wireshark_1](https://github.com/Cr1msonPho3nix/Network_Projects/blob/main/img/.png)<br><br>
+![wireshark_1](https://github.com/Cr1msonPho3nix/Network_Projects/blob/main/img/Wireshark%20packet%20Analyzer%201/1.1.Search_ip.PNG)<br><br>
 - Double-click on the first packet with "TCP" protocol gives some information about it, which is its destination port?
-![wireshark_2](https://github.com/Cr1msonPho3nix/Network_Projects/blob/main/img/.png)<br><br>
+![wireshark_2](https://github.com/Cr1msonPho3nix/Network_Projects/blob/main/img/Wireshark%20packet%20Analyzer%201/1.2.Search_port.PNG)<br><br>
 
 ## 2. Use filters to select packets
 - Search for any packet related to the specific MAC address: 42:01:ac:15:e0:02. Show the first packet protocol and "Time to Live" information.
-![wireshark_3](https://github.com/Cr1msonPho3nix/Network_Projects/blob/main/img/.png)<br><br>
+![wireshark_3](https://github.com/Cr1msonPho3nix/Network_Projects/blob/main/img/Wireshark%20packet%20Analyzer%201/2.1.Protocol_and_TTL.PNG)<br><br>
 
 ## 3. Use filters to explore DNS packets
 - Use filters to select and examine DNS traffic (DNS traffic uses UDP port 53)
-![wireshark_3](https://github.com/Cr1msonPho3nix/Network_Projects/blob/main/img/.png)<br><br>
+![wireshark_3](https://github.com/Cr1msonPho3nix/Network_Projects/blob/main/img/Wireshark%20packet%20Analyzer%201/3.1.DNS_filter.PNG)<br><br>
